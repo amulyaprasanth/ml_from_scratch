@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS / Linux
+.DS_Store
+*.swp
+
+# Logs and debug
+*.log
+
+# Model & data artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Datasets (optional — comment out if you want to keep them)
+data/
+datasets/
+
+# Notebook output (if needed)
+*.nbconvert.ipynb
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Secrets (just in case)
+secrets.*
+credentials.*
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
